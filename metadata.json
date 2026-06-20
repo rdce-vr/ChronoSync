@@ -1,0 +1,6 @@
+{
+  "name": "TOTP Generator",
+  "description": "A secure TOTP generator with custom NTP server synchronization, beautiful circular countdown timers, and robust client-side encrypted vault storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

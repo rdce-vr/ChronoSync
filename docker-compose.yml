@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  chronos-otp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chronos-otp-vault
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

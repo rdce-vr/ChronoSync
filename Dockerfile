@@ -32,8 +32,8 @@ COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/dist ./dist
 
-# Expose port 3000
-EXPOSE 3000
+# Expose port 7332
+EXPOSE 7332
 
 # Start the optimized Node server
 CMD ["npm", "start"]

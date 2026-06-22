@@ -7,7 +7,7 @@ services:
     image: chronos-otp:1.0.0
     container_name: chronos-otp-web
     ports:
-      - "3000:3000"
+      - "7332:7332"
     environment:
       - NODE_ENV=production
       - PORT=7332

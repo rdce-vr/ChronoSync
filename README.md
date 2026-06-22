@@ -26,7 +26,7 @@ docker compose logs -f
 docker compose down
 ```
 
-The application will be accessible at: **`http://localhost:3000`**
+The application will be accessible at: **`http://localhost:7332`**
 
 ---
 
@@ -49,7 +49,7 @@ docker run -d \
   chronos-otp:1.0.0
 ```
 
-The application will be accessible at: **`http://localhost:3000`**
+The application will be accessible at: **`http://localhost:7332`**
 
 ---
 
@@ -83,7 +83,7 @@ npm run build
   npm run dev
   ```
 
-The application will be accessible at: **`http://localhost:3000`**
+The application will be accessible at: **`http://localhost:7332`**
 
 ---
 
@@ -94,8 +94,8 @@ The application reads configuration parameters from the environment. Rename `.en
 | Variable | Description | Default / Example |
 | :--- | :--- | :--- |
 | `GEMINI_API_KEY` | Required for secure back-end server-side Gemini API calls. | `YOUR_API_KEY` |
-| `APP_URL` | The current external hosting URL of the application. | `http://localhost:3000` |
-| `PORT` | Local container port mapping. | `3000` |
+| `APP_URL` | The current external hosting URL of the application. | `http://localhost:7332` |
+| `PORT` | Local container port mapping. | `7332` |
 
 ---
 

@@ -25,7 +25,7 @@ FROM node:20-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
-ENV PORT=3000
+ENV PORT=7332
 
 # Copy necessary production artifacts from builder
 COPY --from=builder /app/package.json ./package.json

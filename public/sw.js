@@ -2,9 +2,8 @@ const CACHE_NAME = "chronos-otp-v1";
 const PRECACHE_ASSETS = [
   "/",
   "/index.html",
-  "/src/main.tsx",
-  "/src/index.css",
-  "/src/App.tsx",
+  "/manifest.json",
+  "/icon.svg"
 ];
 
 // Install event: cache initial shell assets

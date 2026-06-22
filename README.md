@@ -43,7 +43,7 @@ docker build -t chronos-otp:1.0.0 .
 ```bash
 docker run -d \
   --name chronos-otp-web \
-  -p 3000:3000 \
+  -p 7332:7332 \
   --env-file .env \
   --restart unless-stopped \
   chronos-otp:1.0.0

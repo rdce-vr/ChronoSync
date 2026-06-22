@@ -1,7 +1,7 @@
 {
-  "name": "react-example",
+  "name": "chronos-otp",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
@@ -21,8 +21,7 @@
     "otpauth": "^9.5.1",
     "qrcode": "^1.5.4",
     "react": "^19.0.1",
-    "react-dom": "^19.0.1",
-    "vite": "^6.2.3"
+    "react-dom": "^19.0.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
